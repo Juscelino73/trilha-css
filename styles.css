@@ -1,0 +1,251 @@
+@import url(./reset.css);
+
+body{
+    background-color: black;
+      }
+p{
+    color: white;
+}
+
+.banner{
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33A8DB80;
+  justify-content: center;
+  display: flex;
+
+}
+
+.banner-content{
+    width: 510px;
+    height: 393px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.banner-content h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  background-clip: text;
+  -webkit-background-clip: text;
+ 
+ }
+
+.logo{
+    margin-top: 40px;
+    line-height: 1.5%;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+  }
+.banner-content p{
+    width: 100%;
+    height: 20px;
+    color: white;
+    letter-spacing: 0%;
+    text-align: center;
+    border-top: 20px;
+    border-bottom: 15px;
+    size: 25px;
+ 
+}
+.banner-content button{
+    margin-top: 50px;
+    width: 326px;
+    height: 53px;
+    color: #33A8DB;
+    font-weight: bold;
+    size: 25px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border:2px solid #3ba8d8;
+    padding: 6px 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 21%;
+   }
+  main{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+     }    
+  section{
+    margin-top: 100px;
+  }
+   #course-content{
+  width:100% ;
+  height: 500px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#course-content h2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: #33A8DB;
+  font-size: 50px;
+  line-height: 100%;
+  font-family: 'Raleway', sans-serif ;
+  font-weight: bold;
+  letter-spacing: 19%;
+  text-transform: uppercase;
+}
+
+#course-content p{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+    padding-left: 50px;
+    margin-top: -20px;
+    color: white;
+    letter-spacing: 15%;
+    text-align: center;
+    font-size: 20px;  
+}
+
+.modules-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 55%;
+}
+.module{
+  width: 640px;
+  height: 55px;
+  border: 2px solid #33A8DB;
+  border-radius: 57px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+  float: left;
+  color: white;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-left: 45px;
+  padding-top: 10px;
+}
+
+.module span{
+  color: #33A8DB;
+  text-transform: capitalize;
+  
+
+}
+   #transform-world{
+    display: flex;
+    background-image:url('../images/woman-code.png');
+    background-attachment: fixed;
+    background-size: 100%;
+    justify-content: center;
+    margin-top: 65px;
+    width:100%;
+    height:500px;
+    text-align: center;
+    background-clip: inherit;
+   }
+
+    #transform-world p{
+
+      font-weight: 900;
+      font-size: 2.5rem;
+      text-transform: lowercase;
+      max-width: 250px;
+      text-shadow: 3px 2px #33A8DB;
+      margin-right: 65%;
+      margin-top: 7%;
+     
+    }
+
+    #professional-challenges{
+        width:100% ;
+        height: 650px;
+        margin-bottom: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    #professional-challenges p{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+    padding-left: 50px;
+    margin-top: -20px;
+    color: white;
+    letter-spacing: 15%;
+    text-align: center;
+    font-size: 25px;  
+}
+  #professional-challenges h2{
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+  color: #33A8DB;
+  font-size: 40px;
+  line-height: 100%;
+  font-family: 'Raleway', sans-serif ;
+  font-weight: bold;
+  letter-spacing: 19%;
+  text-transform: uppercase;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  align-items: center;
+
+}
+footer img{
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer p{
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  height: 60px;
+}
+ footer a{
+  text-align: justify;
+  text-decoration: none;
+  font-weight: bold;
+  color: #33A8DB;
+  letter-spacing:0.01em;
+  margin: 0 5px;
+ }
